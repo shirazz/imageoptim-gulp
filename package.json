@@ -1,0 +1,26 @@
+{
+	"name": "imgoptimizer",
+	"version": "1.0.0",
+	"description": "Dev Workflow for image optimization inspired from WPImgOptimizer but with updated packages and changes.",
+	"license": "GPL-2.0",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ahmadawais/WPImgOptimizer"
+	},	
+	"scripts": {
+		"build": "gulp",
+		"imgopt": "imagemin assets/img/raw/* --out-dir=assets/img/opt"
+	},
+	"author": "Shirazz",
+	"credits": "Ahmad Awais & Maedah Batool",
+	"devDependencies": {
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"@babel/register": "^7.15.3",
+		"gulp": "^4.0.2",
+		"gulp-imagemin": "^8.0.0",
+		"gulp-notify": "^4.0.0",
+		"imagemin-cli": "^7.0.0"
+	}
+}
